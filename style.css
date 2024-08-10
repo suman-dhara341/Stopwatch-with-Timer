@@ -1,0 +1,59 @@
+body {
+  margin-top: 0;
+  padding: 0;
+  background-color: rgb(25, 24, 24);
+  color: white;
+  font-size: 2vw;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  margin-top: 1vh;
+  height: 40vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 15px 5px rgba(128, 113, 113, 0.3);
+}
+
+.restValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
+  width: 30vw;
+  box-shadow: 5px 5px 15px 5px rgba(128, 113, 113, 0.3);
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1vw;
+}
+
+.button button {
+  background-color: white;
+  height: 8vh;
+  width: 7vw;
+  border: none;
+  border-radius: 10px;
+}
+
+.start_btn:hover,
+.stop_btn:hover,
+.time_btn:hover {
+  background-color: green;
+}
+
+.reset_btn:hover,
+.clear_btn:hover {
+  background-color: red;
+}
